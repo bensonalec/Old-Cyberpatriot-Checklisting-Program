@@ -1,0 +1,41 @@
+MAKE SURE FIREWALL IS ENABLED
+
+Set User Passwords To Be Changed On Next Login
+
+Password Policy, goto secpol.msc;history:5, max pass age:15; min pass age:1;min pass length:8
+
+Auditing, goto secpol.msc; turn all to success and failure
+
+Lockout Policy, goto secpol.msc; duration:30, threshold:3, counter: 30
+
+Security Options., goto secpol.msc; disable admin, disable guest, rename admin and guest, shutdown without logon
+
+Disable Services, goto services.msc; it's recomended to always disable telnet, plug and play, and ftp
+
+Install MalwareBytes, You should have this on a flashdrive, but it's found at http://www.malwarebytes.org/mwb-download/
+
+Remove Unauthorized Users, goto compmgmt.msc, make sure to record all users and changes you make
+
+Check user permissions, goto compmgmt.msc
+
+Set all password to expire, goto compmgmt.msc
+
+Admins have proper permissions, goto compmgmt.msc
+
+Change Default Programs, can be found at Control Panel\Programs\Default Programs
+
+Change startup programs, msconfig
+
+Enable hidden folders, goto folder options in start search bar
+
+Search C Drive, Goto C:\, suggested serch terms include: keylogger, readme, john, .mp3, virus, trojan, backdoor
+
+Uninstall Programs, goto msconfig
+
+User Account Control, uac in windows menu search bar
+
+Remove unnessecary features, features in windows search bar
+
+Disable guest account, goto compmgmt.msc
+
+Change internet options, internet options in windows search bar
